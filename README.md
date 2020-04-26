@@ -6,8 +6,8 @@ A low level caching script in python 2.7
  Returns True if added successfully, otherwise False <br>
  TTL = Time to Live<br>
  TTL is in seconds and optional parameter.<br>
- data will persist till end if TTL is not provided or provided negative<br>
- TTL = 0 not stored<br>
+ Data will persist till end if TTL is not provided or provided negative<br>
+ TTL = 0, not stored<br>
 
 2. **get(key, default = "Not_Available")** :<br>
  If key is not present in cache, will return default value<br>
